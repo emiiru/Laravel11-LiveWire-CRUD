@@ -5,6 +5,7 @@ use App\Livewire\CreatePost;
 use App\Livewire\ListPosts;
 use App\Livewire\ShowPost;
 use App\Livewire\UpdatePost;
+use App\Livewire\DeletePost;
 
 Route::get('/', function () {
     return view('welcome');
